@@ -21,7 +21,6 @@ function App() {
             <Route path="/cause" element={<Cause />} />
             <Route path="/donate" element={<Donate />} />
             <Route path="/inspired" element={<Inspired />} />
-            <Route path="/inspired" element={<Inspired />} />
             <Route path="/equipment" element={<Equipment />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
@@ -32,4 +31,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
