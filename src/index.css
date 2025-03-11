@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+    font-family: 'lovelo';
+    src: url('./Assets/fonts/lovelo/Lovelo Black.otf') format('opentype'),
+         url('./Assets/fonts/lovelo/Lovelo Line Light.otf') format('opentype'),
+         url('./Assets/fonts/lovelo/Lovelo Line Bold.otf') format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'TTCommonsProExp';
+    src: url('./Assets/fonts/TTCommonsProExp/TT Commons Pro Trial Expanded Bold.ttf') format('truetype'),
+         url('./Assets/fonts/TTCommonsProExp/TT Commons Pro Trial Expanded DemiBold Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-weight: light;
+}
+
+@font-face {
+    font-family: 'DBHeadRegular';
+    src: url('./Assets/fonts/DBHeadRegular/DB Head Regular.otf') format('opentype');
+    font-weight: normal;
+}
+
+*{
+    font-family: DBHeadRegular;
+}
