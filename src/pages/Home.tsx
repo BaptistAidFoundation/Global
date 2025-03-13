@@ -10,6 +10,7 @@ import image2 from '../Assets/images/image_2.jpg';
 import image3 from '../Assets/images/image_4.jpg';
 import '../css/flaticon.css';
 
+
 export default function Home() {
   const donations = [
     { name: "Ethan Thompson", amount: "$30000", cause: "Global Health Education", status: "Pending", image: person1, statusColor: "text-orange-500" },
